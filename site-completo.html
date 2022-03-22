@@ -10,11 +10,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
+<style>
+  .tm-social {
+    width: 50px;
+    height: 50px;
+  }
+</style>
     <title>Hello, world!</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Mandalas Story</a>
+
+  <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-light" href="#">Mandalas Story</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,33 +30,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-light" href="#">Início <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-light" href="#significados">Significados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#origem">Origem</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Artesanato
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Mandalas crochê</a>
+                <a class="dropdown-item" href="#">Mandalas de madeira</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Mandalas em porcelana</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link text-light" href="#contato">Contato</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline bg-light my-2 my-sm-0" type="submit">ok</button>
           </form>
         </div>
       </nav>
 
+<!--Navbar-->
+
+<!--Carrosel-->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,10 +90,160 @@
         </button>
       </div>
 
+      <!--carrosel-->
+
+      <!--Jumbotron-->
+      <div class="jumbotron jumbotron-fluid" id="significados">
+        <div class="container">
+          <h1 class="display-4">Mandalas e seus Significados</h1>
+          <p class="lead">Uma imersão no mundo pscodélico.</p>
+        </div>
+      </div>
+      <!--Jumbotron-->
+
+      <!--Cards-->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="./assets/img/verde.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Verde</h5>
+                <p class="card-text"> A mandala verde,significa tranquilidade,paz e cura.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="./assets/img/azul.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">azul</h5>
+                <p class="card-text">A mandala azul,significa esperança, confiança, sabedoria e positividade. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="./assets/img/amarela.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Amarela</h5>
+                <p class="card-text"> A mandala amarela significa, diversão, estímulo, alegria e otimismo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="./assets/img/vermelho.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vermelha</h5>
+                <p class="card-text"> A mandala vermelha excitação, energia, compaixão e algumas vezes raiva.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <!--Cards-->
+
+<!--texto e vídeo-->
+
+<div class="row mt-5 mb-5" id="origem">
+<div class="col-md-6">
+  <h3> Origem </h3>
+  <p> A palavra mandala vem dos antigos indianos e significa “círculo”. Mas, o significado de mandala é bem variado, alguns povos chamam de “concentração de energia” ou até mesmo “círculo mágico”. </p>
+
+  <p>Independente do local ou do significado da palavra, a mandala representa não somente uma forma geométrica, mas está ligada à harmonia, paz interior e estados que levem a meditação e tranquilidade. Em algumas regiões as mandalas estão ligadas à religiosidade.</p>
+<p>
+  Logicamente, para cada cultura esse objetivo pode ser mudado. Na maioria dessas culturas, as mandalas servem como um ponto de concentração, para que seja mais fácil meditar.
+</p>
+
+</div>
+
+<div class="col-md-6">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4leUIpn9jEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<!--texto e vídeo-->
+
+<!--Formulario-->
+
+<div class="row" id="contato">
+  <div class="col-md-12">
+    <h4 class="text-center">
+      Entre em contato comigo
+    </h4>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <form>
+      <div class="form-group">
+        <label for="validaNome">Nome</label>
+        <input type="Nome" class="form-control" id="validaNome" placeholder="Nome Completo" onkeyup="validaNome()">
+        <p id="txtNome"></p> 
+      </div>
+
+      <div class="form-group">
+        <label for="validaEmail">Email</label>
+        <input type="email" class="form-control" id="validaEmail" onkeyup="validaEmail()" placeholder="name@example.com"> 
+        <p id="txtEmail"></p>
+      </div>
+      
+      <div class="form-group">
+        <label for="Mensagem">Mensagem</label>
+        <textarea class="form-control" id="Mensagem" onkeyup="validaMensagem()"></textarea>
+        <p id="txtMensagem"></p>
+      </div>
 
 
+      <div class="form-group d-flex justify-content-end">
+<button class="btn btn-outline-dark" onkeyup="enviar()">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
 
+<!--Formulario-->
 
+<!--Rodapé-->
+<hr>
+<footer>
+
+<div class="row mb-3">
+  <div class="col-md-12 d-flex justify-content-center">
+    
+      <a href="https://www.facebook.com/" target="_blank" class="p-3">
+          <img class="tm-social "  src="assets/img/facebook.png" alt="Logo do Facebook">
+      </a>
+      
+      <a href="https://www.linkedin.com/feed/" target="_blank" class="p-3">
+          <img class="tm-social" src="assets/img/Linkedin.png" alt="Logo do Linkedin">
+      </a>
+      
+      <a href="https://www.instagram.com/"target="_blank" class="p-3">
+          <img class="tm-social " src="assets/img/Instagram.png" alt="Logo do Instagram">
+      </a>
+    
+  </>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center">
+        Todos os direitos reservados: Jamille Lino &copy;
+      </p>
+    </div>
+    </div>
+  </div>
+  
+
+</footer>
+<!--Rodapé-->
+
+</div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -93,5 +257,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     -->
+    <script src="./assets/js/script.js"></script>
   </body>
+
 </html>
